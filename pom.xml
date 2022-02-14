@@ -8,7 +8,7 @@
         <version>2.6.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.liguanfei</groupId>
+    <groupId>io.github.liguanfei</groupId>
     <artifactId>liguanfei</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>liguanfei</name>
@@ -29,6 +29,13 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
+    <scm>
+        <tag>master</tag>
+        <url>git@github.com:liguanfei/liguanfei.git</url>
+        <connection>scm:git:git@github.com:liguanfei/liguanfei.git</connection>
+        <developerConnection>scm:git:git@github.com:liguanfei/liguanfei.git</developerConnection>
+    </scm>
 
     <!--开发者：这里我们注册的时候写的名字和邮箱准确填写 ，id尽量和上面的id对应-->
     <developers>
